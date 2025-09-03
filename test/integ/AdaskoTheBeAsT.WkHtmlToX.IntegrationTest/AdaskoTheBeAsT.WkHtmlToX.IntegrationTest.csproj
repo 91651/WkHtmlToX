@@ -4,13 +4,13 @@
     <TargetFrameworks>net462;net47;net471;net472;net48;net481;net6.0;net7.0;net8.0;net9.0</TargetFrameworks>
     <RuntimeIdentifier>win-x64</RuntimeIdentifier>
     <PlatformTarget>x64</PlatformTarget>
+    <SelfContained>false</SelfContained>
     <ProjectGuid>5036F388-7C90-4DC5-8D80-74A5BC4D82C8</ProjectGuid>
   </PropertyGroup>
 
   <ItemGroup>
     <PackageReference Include="AdaskoTheBeAsT.WkHtmlToX.native.win.x64" Version="0.12.6" />
     <PackageReference Include="Microsoft.IO.RecyclableMemoryStream" Version="3.0.1" />
-    <PackageReference Include="System.Private.Uri" Version="4.3.2" />
   </ItemGroup>
 
   <ItemGroup>
